@@ -1,4 +1,27 @@
+header.navbar-dark {
+  border-bottom-color: rgba(255,255,255,.1);
+}
+
+.navbar-dark {
+  color: rgba(255,255,255,.9);
+  background-color: var(--dark);
+  border-bottom-color: rgba(255,255,255,.1);
+}
+.navbar-header {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: -1.25rem;
+  margin-right: 1.25rem;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+.navbar-brand {
+  min-width: 15.625rem;
+  margin-left: 1.25rem;
+  margin-right: 0;
+}
+
 .navbar-brand img {
-    height: 1rem;
-    display: block;
+  height: 1rem;
+  display: block;
 }
