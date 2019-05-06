@@ -10,7 +10,6 @@ class Navbar extends React.Component {
         <div className="navbar navbar-expand-md navbar-light">
           <Brand />
           <div className="collapse navbar-collapse content-boxed">
-
           </div>
         </div>
       );
