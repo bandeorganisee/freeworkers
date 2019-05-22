@@ -1,0 +1,29 @@
+@import '../../../ui/assets/mixins.scss';
+
+.sidebar {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 286px;
+  z-index: 100;
+
+  &:not(.sidebar-component) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    box-sizing: content-box;
+    transition: all ease-in-out .15s;
+  }
+}
+
+.sidebar-expand-md.sidebar-main {
+
+  @include media(tablet) {
+    z-index: 99;
+    box-shadow: none;
+  }
+}
+
+.sidebar-dark {
+  background-color: var(--bg-sidebar);
+  color: #fff;
+}
