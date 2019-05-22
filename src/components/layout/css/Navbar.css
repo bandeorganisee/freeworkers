@@ -1,9 +1,0 @@
-.navbar {
-    padding: 0 1.25rem !important;
-}
-
-.navbar-light {
-    color: rgba(51,51,51,.85);
-    background-color: var(--white);
-    border-bottom: 1px solid rgba(0,0,0,.125);
-}
