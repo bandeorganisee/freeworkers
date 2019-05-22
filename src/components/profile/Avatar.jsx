@@ -12,6 +12,8 @@ class Avatar extends React.Component {
             className="rounded-circle"
             src={ this.props.avatarImage }
             alt={ this.props.avatarDescription }
+            width={ this.props.widthAvatar }
+            height={ this.props.heightAvatar }
           ></img>
         </div>
     </div>
@@ -19,15 +21,18 @@ class Avatar extends React.Component {
   }
 }
 
-// eslint-disable-next-line react/no-typos
-Avatar.PropTypes = {
+Avatar.propTypes = {
   avatarImage: PropTypes.string,
   avatarDescription: PropTypes.string,
+  widthAvatar: PropTypes.number,
+  heightAvatar: PropTypes.number,
 };
 
 Avatar.defaultProps = {
   avatarImage: 'http://demo.interface.club/limitless/demo/bs4/Template/global_assets/images/demo/users/face2.jpg',
   avatarDescription: 'Profile image avatar',
+  widthAvatar: 38,
+  heightAvatar: 38,
 }
 
 export default Avatar;
