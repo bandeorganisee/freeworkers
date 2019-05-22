@@ -1,0 +1,32 @@
+.brand-container {
+  color: rgba(255,255,255,.9);
+  background-color: var(--bg-brand);
+  border-bottom-color: rgba(255,255,255,.1);
+}
+
+.brand-header {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: -1.25rem;
+  margin-right: 1.25rem;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.brand-content {
+  display: inline-block;
+  padding-top: 1.00002rem;
+  padding-bottom: 1.00002rem;
+  margin-right: 1.25rem;
+  font-size: 0;
+  line-height: inherit;
+  white-space: nowrap;
+  min-width: 250px;
+  margin-left: 1.25rem;
+  margin-right: 0;
+}
+
+.brand-content img {
+  height: 1rem;
+  display: block;
+}
