@@ -1,0 +1,9 @@
+.media-title {
+  margin-bottom: 0.125rem;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.profile-location {
+  font-size: var(--font-size-xs);
+  opacity: var(--opacity-50);
+}
